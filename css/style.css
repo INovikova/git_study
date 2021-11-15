@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 header{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	background: #008f53;
+	background: #aecfcf;
     height: 50px;
 	width: 100%;
 	position: fixed;
@@ -59,19 +59,28 @@ body{
 }
 
 .info {	
-	background-color: #9ce2e2;
+	background-color: #e2e2e2;
 	height: 500px;
+	margin-bottom: 20px;
+}
+.map {
+	background-color: #c5c5c5;
+	height: 600px;
+}
+
+.example-image {
+	width: 100%;	
 }
 
 .row {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	background: #cacaca;
+	background: #ffffff;
 	display: flex;
 	justify-content: space-around;
 }
 
 .block_1 {	
-	background-color: #8a8aaa;
+	background-color: #9b9b9b;
 	height: 400px;
 	width: 400px;
 	left: 0;
@@ -79,7 +88,7 @@ body{
 	z-index: 0;
 }
 .block_2 {	
-	background-color: #f0ffaf;
+	background-color: #9b9b9b;
 	height: 400px;
 	width: 400px;
 	left: 0;
@@ -87,7 +96,7 @@ body{
 	z-index: 0;
 }
 .block_3 {	
-	background-color: #adadff;
+	background-color: #9b9b9b;
 	height: 400px;
 	width: 400px;
 }
@@ -96,6 +105,6 @@ body{
 
 footer{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	background: #ffad33;
+	background: #aecfcf;
     height: 100px;
 }
