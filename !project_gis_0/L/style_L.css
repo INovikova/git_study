@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	width: 100%;
+	font-size: 48px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	background: #C4C4EB;
+}
+
+.main{
+	padding: 67pxs;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.footer{
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.descr{
+	padding: 15px 50px 5px 65px;
+	font-size: 24px;
+	height: 159px;	
+	line-height: 28px;
+}
+
+.sections{
+	padding: 20px 0px 60px 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.subsection{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.subsection_img{
+	background: #F06F6F; 
+}
+
+.subsection_title_1{
+	padding: 20px;
+	font-size: 48px;
+	height: 96px;
+	align-items: center;
+	text-align: center;
+}
+
+.subsection_title{
+	padding: 10px 0px 10px 0px;
+	font-size: 24px;
+	line-height: 28px;
+	align-items: center;
+	text-align: center;
+	background: #D5D5D5;
+}
+
+.subsection_title_2{
+	padding: 10px;
+	font-size: 24px;
+	align-items: center;
+	text-align: center;
+	background: #8B8A9D;
+}
+
+.subsection_title_3{
+	padding: 10px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	background: #8B8A9D;
+}
+
+.subsection_descr{
+	padding: 5px;
+	height: 119px;
+	font-size: 18px;
+	line-height: 21px;
+	background: #B4B3B3;
+}
+
+.footer_sections{
+	padding: 0px 60px 0px 60px;
+	width: 100%;
+	background: #8B8A9D;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.subsetion_img_1{
+	width: 181px;
+	height: 178px;
+	background: #C4C4C4;
+	border-radius: 100px;
+}
+
+.subsetion_img_1:hover{
+	background: #61607D;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

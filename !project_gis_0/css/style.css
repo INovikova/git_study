@@ -37,8 +37,6 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
-
-
 body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -52,54 +50,32 @@ body{
 
 .header{
 	width: 100%;
-	font-size: 20px;
-	height: 50px;
+	font-size: 48px;
+	height: 120px;
 	left: 0px;
 	top: 0px;
 	background: #aecfcf;
-	position: fixed;
-	z-index: 0;
-	font-style: bold;
-	color: #585858;
-	display: flex;
-	flex-direction: row;
-}
-
-.subsection_title{
-	padding: 10px 0px 10px 0px;
-	font-size: 18px;
-	font-style: bold;	
-	align-items: left;
-	text-align: left;
-}
-
-.example-image {
-	width: 100%;	
 }
 
 
-.info{	
+.info {	
 	background-color: #e2e2e2;
 	color: #868686;
-	height: 500px;
-	margin-bottom: 20px;
-	font-style: normal;
+	padding: 67pxs;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
-.descr{
-	padding: 100px 50px 5px 65px;
+.arial_1 {
 	font-size: 45px;
 	font-style: bold;
 	font-weight: 700;
 	color: #5aa5a5;
 	text-align: center;
 }
-.descr_2{
+.arial_2 {
 	margin: 50px;
-	font-size: 18px;
-	font-style: bold;
-	font-weight: 700;
-	color: #979797;
-	text-align: left;
 }
 
 .map {
@@ -107,44 +83,43 @@ body{
 	height: 600px;
 }
 
+.example-image {
+	width: 100%;	
+}
 
-.sections{
-	padding: 50px 0px 60px 0px;
-	width: 100%;
-	background: #ffffff;
+.row {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: #dfdfdf;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 }
-.subsection_descr{
-	padding: 5px;
-	height: 85px;
-	font-size: 14px;
-	line-height: 21px;
-	background: #ffffff;
+
+.block_1 {	
+	background-color: #afafaf;
+	height: 400px;
+	width: 400px;
+	left: 0;
+    top: 0;
+	z-index: 0;
+}
+.block_2 {	
+	background-color: #afafaf;
+	height: 400px;
+	width: 400px;
+	left: 0;
+    top: 0;
+	z-index: 0;
+}
+.block_3 {	
+	background-color: #afafaf;
+	height: 400px;
+	width: 400px;
 }
 
 
 
-.footer{
-	font-size: 18px;
-	line-height: 21px;
-	background: #b1b1b1;
-}
-
-.subsection_title_2{
-	padding: 10px;
-	font-size: 18px;
-	align-items: left;
-	text-align: left;
-}
-
-.footer_sections{
-	padding: 0px 20px 20px 20px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	font-size: 14px;
-	width: 100%;
-	color: #000;
+footer{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: #aecfcf;
+    height: 100px;
 }
